@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <!-- Background circle -->
+  <circle cx="80" cy="80" r="76" fill="#1a4731" stroke="#2d6a4f" stroke-width="2"/>
+
+  <!-- Subtle circuit grid lines (AI element) -->
+  <g stroke="#2d6a4f" stroke-width="1" opacity="0.55">
+    <line x1="20" y1="60" x2="50" y2="60"/>
+    <line x1="110" y1="60" x2="140" y2="60"/>
+    <line x1="20" y1="100" x2="50" y2="100"/>
+    <line x1="110" y1="100" x2="140" y2="100"/>
+    <circle cx="50" cy="60" r="2.5" fill="#40916c"/>
+    <circle cx="110" cy="60" r="2.5" fill="#40916c"/>
+    <circle cx="50" cy="100" r="2.5" fill="#40916c"/>
+    <circle cx="110" cy="100" r="2.5" fill="#40916c"/>
+    <line x1="50" y1="60" x2="50" y2="45"/>
+    <line x1="110" y1="60" x2="110" y2="45"/>
+    <line x1="50" y1="100" x2="50" y2="115"/>
+    <line x1="110" y1="100" x2="110" y2="115"/>
+  </g>
+
+  <!-- Main stem -->
+  <path d="M80 130 Q80 95 80 58" stroke="#52b788" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Left large leaf -->
+  <path d="M80 95 Q55 80 48 58 Q65 62 80 80" fill="#40916c" opacity="0.95"/>
+  <!-- Left leaf vein -->
+  <path d="M80 95 Q65 76 52 60" stroke="#52b788" stroke-width="1.2" fill="none" opacity="0.7"/>
+
+  <!-- Right large leaf -->
+  <path d="M80 82 Q105 67 112 45 Q95 49 80 67" fill="#52b788" opacity="0.95"/>
+  <!-- Right leaf vein -->
+  <path d="M80 82 Q95 63 110 47" stroke="#74c69d" stroke-width="1.2" fill="none" opacity="0.7"/>
+
+  <!-- Small top sprout leaf -->
+  <path d="M80 58 Q68 46 70 34 Q80 38 80 52" fill="#74c69d"/>
+
+  <!-- Soil / ground line -->
+  <ellipse cx="80" cy="130" rx="18" ry="4" fill="#2d6a4f" opacity="0.7"/>
+
+  <!-- Small circuit dot nodes on stem (AI feel) -->
+  <circle cx="80" cy="80" r="3" fill="#95d5b2" opacity="0.9"/>
+  <circle cx="80" cy="95" r="2.2" fill="#74c69d" opacity="0.8"/>
+  <circle cx="80" cy="67" r="2.2" fill="#74c69d" opacity="0.8"/>
+
+  <!-- Sparkle / AI accent top-right -->
+  <g fill="#d8f3dc" opacity="0.85">
+    <polygon points="130,34 132,40 138,40 133,44 135,50 130,46 125,50 127,44 122,40 128,40" transform="scale(0.7) translate(58,22)"/>
+  </g>
+</svg>

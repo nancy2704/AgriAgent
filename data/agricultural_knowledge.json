@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "description": "Curated agricultural knowledge base for AgriAgent. Sources: FAO, CIMMYT, CGIAR, Cornell Plant Disease Diagnostic Clinic.",
+  "entries": [
+    {
+      "id": "wh001",
+      "crop": "wheat",
+      "topic": "rust diseases",
+      "keywords": ["rust", "yellow rust", "stripe rust", "stem rust", "leaf rust", "orange pustules", "yellow stripes"],
+      "content": "Wheat rusts are fungal diseases caused by Puccinia species. Stripe (yellow) rust (P. striiformis) causes yellow stripes on leaves and is favored by cool, moist conditions (10-15°C). Stem rust (P. graminis) produces reddish-brown pustules on stems, favored by warm conditions (15-25°C). Leaf rust (P. triticina) causes orange-brown pustules on leaf surfaces. Management includes: planting resistant varieties, applying foliar fungicides (triazoles, strobilurins) at early disease stages, and monitoring forecasts.",
+      "source_title": "FAO — Wheat Rust Diseases",
+      "source_url": "https://www.fao.org/agriculture/crops/rust/en/",
+      "severity": "high"
+    },
+    {
+      "id": "wh002",
+      "crop": "wheat",
+      "topic": "powdery mildew",
+      "keywords": ["powdery mildew", "white powder", "white patches", "fungal", "upper leaf surface"],
+      "content": "Powdery mildew of wheat (Blumeria graminis f.sp. tritici) appears as white to grayish powdery patches on leaf surfaces. Favored by moderate temperatures (15-20°C), high humidity, and dense canopies. Management: grow resistant cultivars, apply fungicides (DMIs, QoIs) at early infection, ensure adequate plant spacing and air circulation.",
+      "source_title": "Cornell Plant Disease Diagnostic Clinic — Wheat Powdery Mildew",
+      "source_url": "https://plantclinic.cornell.edu/",
+      "severity": "medium"
+    },
+    {
+      "id": "wh003",
+      "crop": "wheat",
+      "topic": "nutrient deficiency nitrogen",
+      "keywords": ["yellowing", "yellow leaves", "pale", "nitrogen deficiency", "nutrient", "stunted growth"],
+      "content": "Nitrogen (N) deficiency in wheat presents as yellowing starting from older (lower) leaves, with plants appearing pale green or yellow overall. Growth is stunted and tillering reduced. Diagnosis should consider soil N levels and application history. Management: apply appropriate N fertilizer (urea, ammonium nitrate) based on soil tests. Over-application risks lodging and water contamination. Consult local extension for region-specific rates.",
+      "source_title": "CIMMYT — Wheat Nutrient Management",
+      "source_url": "https://www.cimmyt.org/",
+      "severity": "medium"
+    },
+    {
+      "id": "ri001",
+      "crop": "rice",
+      "topic": "blast disease",
+      "keywords": ["blast", "lesions", "diamond-shaped", "brown lesions", "gray center", "rice blast", "neck rot"],
+      "content": "Rice blast (Magnaporthe oryzae) is one of the most destructive rice diseases globally. Symptoms include diamond-shaped lesions with gray centers and brown borders on leaves, and neck blast causing panicle rot. Favored by warm temperatures (25-28°C), high humidity, and high nitrogen. Management: use resistant varieties, apply fungicides (tricyclazole, isoprothiolane) preventively, balance nitrogen fertilization, and avoid excessive irrigation.",
+      "source_title": "IRRI — Rice Knowledge Bank: Blast",
+      "source_url": "https://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/blast-leaf-collar",
+      "severity": "high"
+    },
+    {
+      "id": "ri002",
+      "crop": "rice",
+      "topic": "bacterial leaf blight",
+      "keywords": ["bacterial blight", "wilting", "yellowing margins", "water-soaked", "kresek", "leaf scorch", "BLB"],
+      "content": "Bacterial leaf blight (Xanthomonas oryzae pv. oryzae) causes water-soaked to yellow lesions along leaf margins, eventually turning leaves brown. Severe infections ('kresek') cause whole-plant wilting. Favored by rain, flooding, and wounds. No effective curative bactericide; management relies on resistant varieties, balanced nitrogen, and avoiding field flooding after transplanting.",
+      "source_title": "IRRI — Rice Knowledge Bank: Bacterial Leaf Blight",
+      "source_url": "https://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/bacterial-leaf-blight",
+      "severity": "high"
+    },
+    {
+      "id": "ri003",
+      "crop": "rice",
+      "topic": "brown planthopper",
+      "keywords": ["brown planthopper", "BPH", "hopper burn", "stunting", "yellowing", "insects", "hopperburn"],
+      "content": "Brown planthopper (Nilaparvata lugens) is a major rice pest feeding on phloem sap, causing 'hopper burn' — circular yellowing/browning patches in the field. Heavy infestations cause plants to dry and die. Management: use resistant varieties, avoid excessive nitrogen, preserve natural enemies (spiders, predatory bugs), and use insecticides (buprofezin, dinotefuran) only when exceeding economic thresholds.",
+      "source_title": "IRRI — Rice Knowledge Bank: Brown Planthopper",
+      "source_url": "https://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/brown-planthopper",
+      "severity": "high"
+    },
+    {
+      "id": "ma001",
+      "crop": "maize",
+      "topic": "fall armyworm",
+      "keywords": ["fall armyworm", "FAW", "worm", "caterpillar", "holes in leaves", "ragged leaves", "frass", "spodoptera"],
+      "content": "Fall armyworm (Spodoptera frugiperda) is an invasive pest causing significant damage to maize. Larvae feed on leaves, creating irregular holes, and attack the whorl, leaving characteristic frass (sawdust-like excrement). Management: early detection and monitoring, use of Bt-based biopesticides, chemical insecticides (emamectin benzoate, chlorpyrifos) when threshold is exceeded, push-pull intercropping, and natural enemies (Cotesia parasitoids). Consult local extension for approved products and dosages.",
+      "source_title": "FAO — Fall Armyworm",
+      "source_url": "https://www.fao.org/fall-armyworm/en/",
+      "severity": "high"
+    },
+    {
+      "id": "ma002",
+      "crop": "maize",
+      "topic": "maize streak virus",
+      "keywords": ["streak virus", "yellow streaks", "chlorosis", "stunting", "virus", "leafhopper", "MSV"],
+      "content": "Maize streak virus (MSV) is transmitted by leafhoppers (Cicadulina spp.) and causes characteristic yellow streaks along leaf veins, stunted growth, and reduced yields. No chemical cure; management focuses on planting resistant varieties, early planting to avoid peak leafhopper populations, and roguing infected plants.",
+      "source_title": "CGIAR — Maize Streak Virus",
+      "source_url": "https://www.cgiar.org/",
+      "severity": "high"
+    },
+    {
+      "id": "ma003",
+      "crop": "maize",
+      "topic": "northern corn leaf blight",
+      "keywords": ["leaf blight", "cigar-shaped", "grayish lesions", "tan lesions", "blight", "NCLB", "Exserohilum"],
+      "content": "Northern corn leaf blight (NCLB), caused by Exserohilum turcicum, produces long, cigar-shaped, grayish-green to tan lesions on maize leaves. Favored by moderate temperatures (18-27°C) and high humidity. Management: plant resistant hybrids, apply foliar fungicides (triazoles, strobilurins) at early silk stage if disease is present, practice crop rotation.",
+      "source_title": "University Extension — Northern Corn Leaf Blight",
+      "source_url": "https://extension.psu.edu/",
+      "severity": "medium"
+    },
+    {
+      "id": "to001",
+      "crop": "tomato",
+      "topic": "late blight",
+      "keywords": ["late blight", "water-soaked", "dark brown", "white mold", "Phytophthora", "rotting", "blight"],
+      "content": "Late blight (Phytophthora infestans) causes water-soaked, rapidly expanding dark brown lesions on leaves and stems, with white sporulation on the undersides in humid conditions. Fruit develops firm, brown rotted patches. Extremely destructive under cool, wet conditions (15-20°C). Management: plant resistant varieties, apply preventive fungicides (chlorothalonil, mancozeb, metalaxyl-based products), ensure good air circulation, avoid overhead irrigation, and remove infected plants promptly.",
+      "source_title": "Cornell Plant Disease Diagnostic Clinic — Late Blight",
+      "source_url": "https://plantclinic.cornell.edu/",
+      "severity": "high"
+    },
+    {
+      "id": "to002",
+      "crop": "tomato",
+      "topic": "early blight",
+      "keywords": ["early blight", "target spot", "concentric rings", "brown spots", "Alternaria", "leaf spots"],
+      "content": "Early blight (Alternaria solani) causes brown-to-black spots with concentric rings (target spot appearance) on older leaves, eventually causing defoliation. Favored by warm temperatures (24-29°C) and wet/humid conditions. Management: crop rotation, remove infected plant debris, apply fungicides (chlorothalonil, copper-based), maintain plant nutrition to reduce stress, and stake plants for airflow.",
+      "source_title": "Cornell Plant Disease Diagnostic Clinic — Early Blight",
+      "source_url": "https://plantclinic.cornell.edu/",
+      "severity": "medium"
+    },
+    {
+      "id": "to003",
+      "crop": "tomato",
+      "topic": "blossom end rot",
+      "keywords": ["blossom end rot", "BER", "black bottom", "rot", "calcium deficiency", "fruit rot"],
+      "content": "Blossom end rot (BER) is a physiological disorder caused by calcium deficiency in developing fruit tissues, often linked to irregular watering, drought stress, or excessive nitrogen fertilization. Appears as water-soaked, sunken, dark areas at the blossom end of fruit. Management: maintain consistent soil moisture (mulching, drip irrigation), ensure adequate calcium via soil amendments or foliar sprays, avoid excessive nitrogen, test soil pH (target 6.5).",
+      "source_title": "University of Maryland Extension — Blossom End Rot",
+      "source_url": "https://extension.umd.edu/",
+      "severity": "low"
+    },
+    {
+      "id": "po001",
+      "crop": "potato",
+      "topic": "late blight",
+      "keywords": ["late blight", "Phytophthora", "dark lesions", "water-soaked", "white sporulation", "tuber rot"],
+      "content": "Potato late blight (Phytophthora infestans) remains one of the most devastating crop diseases. Symptoms: water-soaked dark lesions on leaves and stems, white sporulation on undersides, and tuber rot with firm reddish-brown internal discoloration. Requires cool, moist weather (10-20°C). Management: use certified disease-free seed tubers, plant resistant varieties, apply fungicides (mancozeb, cymoxanil, fluazinam) on a preventive schedule, remove and destroy infected plant material, and ensure good drainage.",
+      "source_title": "FAO — Potato Late Blight",
+      "source_url": "https://www.fao.org/potato-2008/en/",
+      "severity": "high"
+    },
+    {
+      "id": "ge001",
+      "crop": "general",
+      "topic": "drought stress",
+      "keywords": ["drought", "wilting", "dry", "water stress", "curling leaves", "brown leaf edges"],
+      "content": "Drought stress affects most crops, causing wilting, leaf curling, browning of leaf edges, and stunted growth. Management varies by crop and growth stage. General strategies include: mulching to retain soil moisture, deficit irrigation scheduling, selecting drought-tolerant varieties, and adjusting planting dates. Seek local agronomist advice for specific irrigation schedules and variety selection.",
+      "source_title": "FAO — Drought and Agriculture",
+      "source_url": "https://www.fao.org/land-water/water/drought/en/",
+      "severity": "medium"
+    },
+    {
+      "id": "ge002",
+      "crop": "general",
+      "topic": "soil health and fertilization",
+      "keywords": ["soil health", "fertilizer", "organic matter", "compost", "pH", "nutrient"],
+      "content": "Soil health is foundational to crop productivity. Key parameters include pH (most crops prefer 6.0-7.0), organic matter content, and macro/micronutrient availability. Soil testing before applying fertilizers is strongly recommended. Excessive fertilization contributes to environmental pollution, pest outbreaks, and crop lodging. Integrated soil fertility management (ISFM) combines inorganic fertilizers with organic inputs for sustainable productivity.",
+      "source_title": "FAO — Soils Portal",
+      "source_url": "https://www.fao.org/soils-portal/en/",
+      "severity": "low"
+    },
+    {
+      "id": "ge003",
+      "crop": "general",
+      "topic": "integrated pest management",
+      "keywords": ["IPM", "pest management", "integrated", "pesticide", "biological control", "monitoring"],
+      "content": "Integrated Pest Management (IPM) is a sustainable approach combining biological, cultural, physical, and chemical tools to minimize pest damage while reducing risks to people and the environment. IPM principles: monitor and identify pests accurately, understand pest biology, set action thresholds before applying pesticides, prefer biological and cultural controls, use targeted and least-toxic pesticides only when necessary.",
+      "source_title": "FAO — Integrated Pest Management",
+      "source_url": "https://www.fao.org/agriculture/crops/thematic-sitemap/theme/pests/ipm/en/",
+      "severity": "low"
+    },
+    {
+      "id": "co001",
+      "crop": "cotton",
+      "topic": "cotton bollworm",
+      "keywords": ["bollworm", "Helicoverpa", "boll damage", "larvae", "caterpillar", "cotton pest"],
+      "content": "Cotton bollworm (Helicoverpa armigera) is a major cotton pest. Larvae bore into bolls, causing significant yield losses. Management: pheromone traps for monitoring, Bt-cotton varieties where approved, biological controls (Trichogramma parasitoids, NPV), and chemical insecticides (pyrethroids, spinosad) as a last resort based on economic thresholds. Resistance to chemical insecticides is a major concern; rotate mode-of-action groups.",
+      "source_title": "FAO — Cotton Pests",
+      "source_url": "https://www.fao.org/",
+      "severity": "high"
+    },
+    {
+      "id": "ba001",
+      "crop": "banana",
+      "topic": "panama disease",
+      "keywords": ["panama disease", "Fusarium wilt", "yellowing", "wilting", "Fusarium", "banana wilt"],
+      "content": "Panama disease (Fusarium oxysporum f. sp. cubense, including Tropical Race 4 - TR4) causes yellowing of lower leaves, wilting, and internal vascular discoloration. TR4 is threatening Cavendish banana production globally. No effective chemical treatment; management relies on strict biosecurity (avoiding soil/water/material movement from infected areas), use of resistant varieties, and soil fumigation for new plantations. Report suspected TR4 to plant health authorities.",
+      "source_title": "FAO — Banana Panama Disease TR4",
+      "source_url": "https://www.fao.org/plant-health-2020/diseases/detail/en/c/1203810/",
+      "severity": "high"
+    }
+  ]
+}
